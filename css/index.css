@@ -111,7 +111,7 @@
   line-height: 1.56rem;
   text-align: center;
   color: #333;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #F1F1F1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000333}}
 .footer table tbody {
@@ -131,5 +131,5 @@
   font-size: 0.56rem;
   letter-spacing: 0.035rem;
   color: #333;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #F1F1F1;
 }
