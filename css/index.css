@@ -20,6 +20,7 @@
   left: 1.002rem;
   top: 0.8rem;
   display: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000310}}
 .header img {
@@ -35,6 +36,7 @@
   position: absolute;
   right: 1.002rem;
   top: 0.8rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000312}}
 .header .next img {
