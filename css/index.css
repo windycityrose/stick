@@ -8,7 +8,7 @@
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\000038}}
 .header span {
-  font-size: 32px;
+  font-size: 0.64rem;
   color: #333;
   letter-spacing: 0.04rem;
 }

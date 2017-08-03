@@ -69,7 +69,7 @@ window.onload = function () {
             if (ali[k].innerHTML > 0) {
                 ali[k].className = "ccc";
             }
-            if (ali[k].innerHTML == today) {
+            if (ali[k].innerHTML == today && iNow==0) {
                 ali[k].className = "today";
             }
         }
