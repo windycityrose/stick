@@ -75,6 +75,9 @@ window.onload = function () {
         }
         //设置头部时间
         var header = document.getElementsByClassName("header")[0].getElementsByTagName("span")[0];
+        if(iNow!==0){
+            today=1;
+        }
         header.innerHTML = year + "年" + (month + 1) + "月" + today + "日";
     }
 
