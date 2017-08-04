@@ -4,6 +4,7 @@
 window.onload = function () {
     var banner = document.getElementsByClassName("banner")[0];
     var day_list = document.getElementsByClassName("banner-bottom")[0];
+    var footer=document.getElementsByClassName("footer")[0];
     var iNow = 0;//当月
 
     function dateFn() {
@@ -52,7 +53,93 @@ window.onload = function () {
             var oLi = document.createElement("li");
             oLi.innerHTML = i + 1;
             day_list.appendChild(oLi);
+            oLi.className="aaa";
+            var otable=document.createElement("table")
+            otable.innerHTML="<thead>"+
+                "<tr>"+
+                "<th>姓名</th>"+
+                "<th>8:00-11:30</th>"+
+                "<th>13:00-17:30</th>"+
+                "</tr>"+
+                "</thead>"+
+                "<tbody>"+
+                "<tr>"+
+                "<td>陈文娟</td>"+
+                "<td><img src='img/away.png'></td>"+
+                "<td><img src='img/away.png'></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>冯建华</td>"+
+                "<td></td>"+
+                "<td><img src='img/away.png'></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>蒋凌伟</td>"+
+                "<td><img src='img/away.png'></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>李敏</td>"+
+                "<td></td>"+
+                "<td><img src='img/away.png'></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>陆燊潇</td>"+
+                "<td></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>沈晓燕</td>"+
+                "<td></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>吴博学</td>"+
+                "<td></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>徐锋</td>"+
+                "<td></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>朱敬涛</td>"+
+                "<td></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>周菊芬</td>"+
+                "<td></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td>余乐</td>"+
+                "<td></td>"+
+                "<td></td>"+
+                "</tr>"+
+                "</tbody>"
+            footer.appendChild(otable);
+            otable.style.display="none";
         }
+        var uli=day_list.getElementsByClassName("aaa");
+        var table=footer.getElementsByTagName("table");
+        table[today].style.display="block";
+
+        for(var y=0;y<uli.length;y++){
+            uli[y].index=y;
+            uli[y].onclick=function(){
+                for(var q=0;q<uli.length;q++){
+                    uli[q].style.backgroundColor="";
+                    uli[q].style.color="";
+                    table[q].style.display="none";
+                }
+                this.style.backgroundColor="#339EE2";
+                this.style.color="#fff";
+                table[this.index].style.display="block";
+            }
+        }
+
         //尾部插入
         var down = insert - (first_week + allDays);
 
@@ -67,10 +154,10 @@ window.onload = function () {
         var ali = day_list.children;
         for (var k = 0; k < ali.length; k++) {
             if (ali[k].innerHTML > 0) {
-                ali[k].className = "ccc";
+                ali[k].className+= " ccc";
             }
             if (ali[k].innerHTML == today && iNow==0) {
-                ali[k].className = "today";
+                ali[k].className+= " today";
             }
         }
         //设置头部时间
