@@ -63,6 +63,7 @@
   width: 0.898rem;
   height: 0.898rem;
   vertical-align: middle;
+  display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000321}}
 .show .show-main ul:nth-child(2) {
