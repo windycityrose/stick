@@ -3,6 +3,7 @@
  */
 window.onload=function(){
     var day_list=document.getElementsByClassName("date")[0];
+    var footer=document.getElementsByClassName("footer")[0];
     var aDate=new Date();
 
     var today=aDate.getDate();//今天
@@ -44,5 +45,14 @@ window.onload=function(){
                     break;
             }
         }
+    }
+    footer.onclick=function(){
+        var odiv=document.createElement("div");
+        odiv.innerHTML="行程安排成功";
+        odiv.className="over";
+        document.body.appendChild(odiv);
+        setTimeout(function(){
+            document.body.removeChild(odiv);
+        },5000)
     }
 };

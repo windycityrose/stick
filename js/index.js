@@ -118,13 +118,27 @@ window.onload = function () {
                 "<td></td>"+
                 "<td></td>"+
                 "</tr>"+
-                "</tbody>"
+                "</tbody>";
             footer.appendChild(otable);
             otable.style.display="none";
         }
         var uli=day_list.getElementsByClassName("aaa");
         var table=footer.getElementsByTagName("table");
-        table[today].style.display="block";
+        if(iNow==0){
+            for(var l=0;l<table.length;l++){
+                table[l].style.display="none";
+            }
+            table[today-1].style.display="block";
+        }
+        if(iNow!==0){
+            for(var g=0;g<table.length;g++){
+                table[g].style.display="none";
+            }
+            table[0].style.display="block";
+
+        }
+
+
 
         for(var y=0;y<uli.length;y++){
             uli[y].index=y;
