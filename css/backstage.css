@@ -12,6 +12,7 @@
 .show {
   width: 15rem;
   background: #fff;
+  margin-bottom: 4.57rem;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000312}}
 .show .show-header {
