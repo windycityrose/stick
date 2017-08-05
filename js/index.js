@@ -139,21 +139,6 @@ window.onload = function () {
         }
 
 
-
-        for(var y=0;y<uli.length;y++){
-            uli[y].index=y;
-            uli[y].onclick=function(){
-                for(var q=0;q<uli.length;q++){
-                    uli[q].style.backgroundColor="";
-                    uli[q].style.color="";
-                    table[q].style.display="none";
-                }
-                this.style.backgroundColor="#339EE2";
-                this.style.color="#fff";
-                table[this.index].style.display="block";
-            }
-        }
-
         //尾部插入
         var down = insert - (first_week + allDays);
 
@@ -172,6 +157,20 @@ window.onload = function () {
             }
             if (ali[k].innerHTML == today && iNow==0) {
                 ali[k].className+= " today";
+            }
+        }
+
+        for(var y=0;y<uli.length;y++){
+            uli[y].index=y;
+            uli[y].onclick=function(){
+                for(var q=0;q<uli.length;q++){
+                    uli[q].style.backgroundColor="#fff";
+                    uli[q].style.color="#666";
+                    table[q].style.display="none";
+                }
+                this.style.backgroundColor="#339EE2";
+                this.style.color="#fff";
+                table[this.index].style.display="block";
             }
         }
         //设置头部时间
