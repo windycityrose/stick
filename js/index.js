@@ -159,7 +159,6 @@ window.onload = function () {
                 ali[k].className+= " today";
             }
         }
-        var oset=footer.offsetTop;
         for(var y=0;y<uli.length;y++){
             uli[y].index=y;
             uli[y].onclick=function(){
@@ -168,12 +167,11 @@ window.onload = function () {
                     uli[q].style.color="#666";
                     table[q].style.display="none";
                 }
+
                 this.style.backgroundColor="#339EE2";
                 this.style.color="#fff";
-                document.body.scrollTop=2000;
-
-                alert(document.body.scrollTop);
-                console.log(oset);
+                document.body.scrollTop=4000;
+                console.log(document.body.scrollTop);
                 table[this.index].style.display="block";
             }
         }
