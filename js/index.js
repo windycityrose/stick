@@ -170,7 +170,7 @@ window.onload = function () {
                 }
                 this.style.backgroundColor="#339EE2";
                 this.style.color="#fff";
-                document.body.scrollTop=2000;
+                document.body.scrollTop=oset;
 
                 alert(document.body.scrollTop);
                 console.log(oset);
