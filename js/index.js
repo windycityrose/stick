@@ -160,7 +160,6 @@ window.onload = function () {
             }
         }
         var oset=footer.offsetTop;
-        var top=oset/50+"rem";
         for(var y=0;y<uli.length;y++){
             uli[y].index=y;
             uli[y].onclick=function(){
@@ -171,9 +170,9 @@ window.onload = function () {
                 }
                 this.style.backgroundColor="#339EE2";
                 this.style.color="#fff";
-                document.body.scrollTop=top;
-                alert(top);
-                console.log(document.body.scrollTop);
+                document.body.scrollTop=2000;
+
+                alert(document.body.scrollTop);
                 console.log(oset);
                 table[this.index].style.display="block";
             }
