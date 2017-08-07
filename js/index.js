@@ -159,6 +159,7 @@ window.onload = function () {
                 ali[k].className+= " today";
             }
         }
+        var otop=document.body.clientHeight-document.documentElement.clientHeight;
         for(var y=0;y<uli.length;y++){
             uli[y].index=y;
             uli[y].onclick=function(){
@@ -174,7 +175,7 @@ window.onload = function () {
 
                 var time = setInterval(function () {
                     document.body.scrollTop = document.body.scrollTop + 50;
-                    if (document.body.scrollTop >=2686) {
+                    if (document.body.scrollTop >=otop) {
                         clearInterval(time);
                     }
                 }, 1);
