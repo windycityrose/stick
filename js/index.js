@@ -166,12 +166,18 @@ window.onload = function () {
                     uli[q].style.backgroundColor="#fff";
                     uli[q].style.color="#666";
                     table[q].style.display="none";
+
                 }
 
                 this.style.backgroundColor="#339EE2";
                 this.style.color="#fff";
-                document.body.style.transition="scrollTop 3s";
-                document.body.scrollTop=4000;
+
+                var time = setInterval(function () {
+                    document.body.scrollTop = document.body.scrollTop + 50;
+                    if (document.body.scrollTop >=2686) {
+                        clearInterval(time);
+                    }
+                }, 1);
                 table[this.index].style.display="block";
             }
         }

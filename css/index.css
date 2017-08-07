@@ -1,8 +1,4 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\000032}}
-body {
-  transition: scrollTop 1s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\000033}}
 .header {
   width: 15rem;
   height: 2rem;
@@ -10,13 +6,13 @@ body {
   line-height: 2rem;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\000038}}
 .header span {
   font-size: 0.64rem;
   color: #333;
   letter-spacing: 0.04rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\000039}}
 .header .undown {
   width: 0.218rem;
   height: 0.4rem;
@@ -26,13 +22,13 @@ body {
   display: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000310}}
 .header img {
   vertical-align: top;
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000311}}
 .header .next {
   width: 0.218rem;
   height: 0.4rem;
@@ -42,19 +38,19 @@ body {
   top: 0.8rem;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000312}}
 .header .next img {
   vertical-align: top;
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000315}}
 .banner {
   width: 13.4rem;
   padding: 0 0.8rem 1.78rem;
   background: #F1F1F1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000317}}
 .banner .banner-top div {
   float: left;
   width: 1.88rem;
@@ -66,15 +62,15 @@ body {
   letter-spacing: 1.5px;
   margin: 0 0.04rem 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000318}}
 .banner .banner-top div:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000320}}
 .banner .banner-bottom {
   margin-left: -0.04rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000321}}
 .banner .banner-bottom li {
   float: left;
   width: 1.88rem;
@@ -85,46 +81,46 @@ body {
   color: #666;
   margin: 0 0.04rem 0.04rem 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000322}}
 .banner .banner-bottom li:nth-child(7n) {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000324}}
 .banner .banner-bottom .ccc {
   background: #fff;
   color: #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000325}}
 .banner .banner-bottom .today {
   background: #339EE2;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000326}}
 .banner .banner-bottom .ac {
   background: #339EE2;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000330}}
 .footer {
   width: 15rem;
   height: 18.8rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000331}}
 .footer table {
   width: 15rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000332}}
 .footer table thead {
   height: 1.56rem;
   width: 15rem;
   border-top: 0.02rem solid #e5e5e5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000333}}
 .footer table thead tr {
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000334}}
 .footer table thead tr th {
   width: 4.96rem;
   height: 100%;
@@ -134,16 +130,16 @@ body {
   color: #333;
   border: 1px solid #F1F1F1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000337}}
 .footer table tbody {
   width: 15rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000338}}
 .footer table tbody tr {
   width: 100%;
   height: 1.56rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000339}}
 .footer table tbody tr td {
   height: 100%;
   width: 4.96rem;
@@ -154,7 +150,7 @@ body {
   color: #333;
   border: 1px solid #F1F1F1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000340}}
 .footer table tbody tr td img {
   width: 0.898rem;
   height: 0.898rem;
