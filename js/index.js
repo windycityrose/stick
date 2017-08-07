@@ -178,7 +178,7 @@ window.onload = function () {
                     if (document.body.scrollTop >=otop) {
                         clearInterval(time);
                     }
-                }, 10);
+                }, 50);
                 table[this.index].style.display="block";
             }
         }
