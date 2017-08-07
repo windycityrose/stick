@@ -170,8 +170,8 @@ window.onload = function () {
 
                 this.style.backgroundColor="#339EE2";
                 this.style.color="#fff";
+                document.body.style.transition="scrollTop 3s";
                 document.body.scrollTop=4000;
-                console.log(document.body.scrollTop);
                 table[this.index].style.display="block";
             }
         }
