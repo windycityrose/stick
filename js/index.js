@@ -7,6 +7,10 @@ window.onload = function () {
             window.location.reload();
 
         }
+        if(window.orientation==0||window.orientation==360){
+            window.location.reload();
+
+        }
 
     }
     window.addEventListener("onorientationchange"  in window  ? "orientationchange" : "resize",hengpin,false);
