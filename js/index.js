@@ -7,7 +7,7 @@ window.onload = function () {
             window.location.reload();
 
         }
-        if(window.orientation==0||window.orientation==360){
+        if(window.orientation==0||window.orientation==180){
             window.location.reload();
 
         }
