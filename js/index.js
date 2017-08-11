@@ -2,6 +2,15 @@
  * Created by 李华东 on 2017/8/2.
  */
 window.onload = function () {
+    function hengpin(){
+        if(window.orientation==90||window.orientation==-90){
+            window.location.reload();
+
+        }
+
+    }
+    window.addEventListener("onorientationchange"  in window  ? "orientationchange" : "resize",hengpin,false);
+
     var banner = document.getElementsByClassName("banner")[0];
     var day_list = document.getElementsByClassName("banner-bottom")[0];
     var footer = document.getElementsByClassName("footer")[0];
