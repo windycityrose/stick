@@ -14,35 +14,35 @@
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\000039}}
 .header .undown {
-  width: 0.218rem;
-  height: 0.4rem;
+  width: 2rem;
+  height: 2rem;
   position: absolute;
-  left: 1.002rem;
-  top: 0.8rem;
+  left: 0;
+  top: 0;
   display: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000310}}
 .header img {
-  vertical-align: top;
-  width: 100%;
-  height: 100%;
+  vertical-align: middle;
+  width: 0.218rem;
+  height: 0.4rem;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000311}}
 .header .next {
-  width: 0.218rem;
-  height: 0.4rem;
+  width: 2rem;
+  height: 2rem;
   display: block;
   position: absolute;
-  right: 1.002rem;
-  top: 0.8rem;
+  right: 0;
+  top: 0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000312}}
 .header .next img {
-  vertical-align: top;
-  width: 100%;
-  height: 100%;
+  vertical-align: middle;
+  width: 0.218rem;
+  height: 0.4rem;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000315}}
 .banner {
@@ -80,6 +80,7 @@
   font-size: 0.56rem;
   color: #666;
   margin: 0 0.04rem 0.04rem 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000322}}
 .banner .banner-bottom li:nth-child(7n) {

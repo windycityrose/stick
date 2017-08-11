@@ -8,19 +8,20 @@
   font-size: 0.64rem;
   letter-spacing: 0.04rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000312}}
 .show {
   width: 15rem;
   background: #fff;
+  margin: 0 0 4.57rem 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000316}}
 .show .show-header {
   width: 100%;
   background: #F1F1F1;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000321}}
 .show .show-header div {
   width: 4.98rem;
   height: 2rem;
@@ -31,25 +32,25 @@
   color: #333;
   background: #F1F1F1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000331}}
 .show .show-header div:nth-child(2) {
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
   width: 4.94rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000337}}
 .show .show-main {
   width: 15rem;
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000340}}
 .show .show-main ul {
   float: left;
-  width: 4.98rem;
+  width: 4.96rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000343}}
 .show .show-main ul li {
-  width: 4.98rem;
+  width: 4.96rem;
   border-bottom: 1px solid #e5e5e5;
   height: 1.96rem;
   line-height: 1.96rem;
@@ -57,48 +58,42 @@
   font-size: 0.56rem;
   color: #333;
   letter-spacing: 0.035rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000354}}
 .show .show-main ul img {
   width: 0.898rem;
   height: 0.898rem;
   vertical-align: middle;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000361}}
 .show .show-main ul:nth-child(2) {
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
   width: 4.94rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000369}}
 .footer {
+  width: 15rem;
+  height: 4.57rem;
+  line-height: 4.57rem;
+  background: #fff;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000378}}
+.footer button {
   width: 10.5rem;
   height: 2.3rem;
   background: #339EE2;
-  box-shadow: 0 15px 15px 0 rgba(50, 158, 226, 0.25);
-  border-radius: 5px;
-  font-size: 0.88rem;
-  letter-spacing: 0.055rem;
+  box-shadow: 0 0.3rem 0.3rem 0 rgba(50, 158, 226, 0.25);
+  border-radius: 0.1rem;
+  font-size: 0.28rem;
   color: #fff;
+  letter-spacing: 0.055rem;
   outline: none;
   border: 0;
-  margin: 0.99rem auto 1.28rem;
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/backstage\.less}line{font-family:\0000325}}
-.over {
-  width: 6.6rem;
-  height: 2rem;
-  text-align: center;
-  line-height: 2rem;
-  background: #000;
-  font-size: 0.76rem;
-  color: #fff;
-  letter-spacing: 0.0476rem;
-  position: fixed;
-  left: 50%;
-  margin-left: -3.3rem;
-  top: 50%;
-  margin-top: -1rem;
 }
