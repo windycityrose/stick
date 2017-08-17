@@ -19,14 +19,14 @@ window.onload=function(){
     var aDate=new Date();
 
     var today=aDate.getDate();//今天
-    for(var i=0; i<15;i++){
+
+    for(var i=0; i<20;i++){
+        var sg=aDate.getMonth()+1;
+        var oli=document.createElement("li");
+        oli.innerHTML=sg+"月"+today+"日";
+        day_list.appendChild(oli);
         aDate.setDate(today+1);
         today=aDate.getDate();
-        var sg=aDate.getMonth()+1;
-        var ss=aDate.getDate()-1;
-        var oli=document.createElement("li");
-        oli.innerHTML=sg+"月"+ss+"日";
-        day_list.appendChild(oli);
     }
     var ali=document.getElementsByClassName("morning")[0].getElementsByTagName("li");
     for(var j=0;j<ali.length;j++){
