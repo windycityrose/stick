@@ -160,3 +160,18 @@
   height: 0.898rem;
   vertical-align: middle;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000344}}
+.content {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000345}}
+.content ul {
+  padding: 0 0.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/stick\/css\/index\.less}line{font-family:\0000346}}
+.content ul li {
+  height: 2rem;
+  border-bottom: 1px solid #E0E0E0;
+  text-align: center;
+  line-height: 2rem;
+}
