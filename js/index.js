@@ -70,9 +70,11 @@ window.onload = function () {
             var otable = document.createElement("table")
             otable.innerHTML = "<thead>" +
                 "<tr>" +
-                "<th>姓名</th>" +
-                "<th>8:00-11:30</th>" +
-                "<th>13:00-17:30</th>" +
+                "<th class='ac'>姓名</th>" +
+                "<th>8:00-10:00</th>" +
+                "<th>10:00-11:30</th>" +
+                "<th>13:00-15:00</th>" +
+                "<th>15:00-17:30</th>" +
                 "</tr>" +
                 "</thead>" +
                 "<tbody>" +
@@ -80,9 +82,13 @@ window.onload = function () {
                 "<td>陈文娟</td>" +
                 "<td><img src='img/away.png'></td>" +
                 "<td><img src='img/away.png'></td>" +
+                "<td><img src='img/away.png'></td>" +
+                "<td><img src='img/away.png'></td>" +
                 "</tr>" +
                 "<tr>" +
                 "<td>冯建华</td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "<td></td>" +
                 "<td><img src='img/away.png'></td>" +
                 "</tr>" +
@@ -90,9 +96,13 @@ window.onload = function () {
                 "<td>蒋凌伟</td>" +
                 "<td><img src='img/away.png'></td>" +
                 "<td></td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "</tr>" +
                 "<tr>" +
                 "<td>李敏</td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "<td></td>" +
                 "<td><img src='img/away.png'></td>" +
                 "</tr>" +
@@ -100,9 +110,13 @@ window.onload = function () {
                 "<td>陆燊潇</td>" +
                 "<td></td>" +
                 "<td></td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "</tr>" +
                 "<tr>" +
                 "<td>沈晓燕</td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "<td></td>" +
                 "<td></td>" +
                 "</tr>" +
@@ -110,9 +124,13 @@ window.onload = function () {
                 "<td>吴博学</td>" +
                 "<td></td>" +
                 "<td></td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "</tr>" +
                 "<tr>" +
                 "<td>徐锋</td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "<td></td>" +
                 "<td></td>" +
                 "</tr>" +
@@ -120,14 +138,20 @@ window.onload = function () {
                 "<td>朱敬涛</td>" +
                 "<td></td>" +
                 "<td></td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "</tr>" +
                 "<tr>" +
                 "<td>周菊芬</td>" +
                 "<td></td>" +
                 "<td></td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "</tr>" +
                 "<tr>" +
                 "<td>余乐</td>" +
+                "<td></td>" +
+                "<td></td>" +
                 "<td></td>" +
                 "<td></td>" +
                 "</tr>" +

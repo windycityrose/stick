@@ -2,7 +2,7 @@
  * Created by 李华东 on 2017/8/4.
  */
 window.onload=function(){
-    function hengpin(){
+    /*function hengpin(){
         if(window.orientation==90||window.orientation==-90){
             window.location.reload();
 
@@ -13,7 +13,7 @@ window.onload=function(){
         }
 
     }
-    window.addEventListener("onorientationchange"  in window  ? "orientationchange" : "resize",hengpin,false);
+    window.addEventListener("onorientationchange"  in window  ? "orientationchange" : "resize",hengpin,false);*/
     var day_list=document.getElementsByClassName("date")[0];
     var footer=document.getElementsByClassName("footer")[0];
     var aDate=new Date();
@@ -42,8 +42,53 @@ window.onload=function(){
                     break;
             }
         }
-    }
-    var ili=document.getElementsByClassName("after")[0].getElementsByTagName("li");
+    };
+    var bli=document.getElementsByClassName("morning")[1].getElementsByTagName("li");
+    for(var j=0;j<ali.length;j++){
+        bli[j].onclick=function(){
+            var img=this.getElementsByTagName("img")[0];
+            switch (img.style.display)
+            {
+                case "none":
+                    img.style.display="inline-block"
+                    break;
+                case "inline-block":
+                    img.style.display="none"
+                    break;
+            }
+        }
+    };
+    var cli=document.getElementsByClassName("morning")[2].getElementsByTagName("li");
+    for(var j=0;j<ali.length;j++){
+        cli[j].onclick=function(){
+            var img=this.getElementsByTagName("img")[0];
+            switch (img.style.display)
+            {
+                case "none":
+                    img.style.display="inline-block"
+                    break;
+                case "inline-block":
+                    img.style.display="none"
+                    break;
+            }
+        }
+    };
+    var dli=document.getElementsByClassName("morning")[3].getElementsByTagName("li");
+    for(var j=0;j<ali.length;j++){
+        dli[j].onclick=function(){
+            var img=this.getElementsByTagName("img")[0];
+            switch (img.style.display)
+            {
+                case "none":
+                    img.style.display="inline-block"
+                    break;
+                case "inline-block":
+                    img.style.display="none"
+                    break;
+            }
+        }
+    };
+    /*var ili=document.getElementsByClassName("after")[0].getElementsByTagName("li");
     for(var k=0;k<ili.length;k++){
         ili[k].onclick=function(){
             var oimg=this.getElementsByTagName("img")[0];
@@ -57,7 +102,7 @@ window.onload=function(){
                     break;
             }
         }
-    }
+    }*/
     footer.onclick=function(){
         var odiv=document.createElement("div");
         odiv.innerHTML="行程安排成功";
